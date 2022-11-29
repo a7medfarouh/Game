@@ -1,5 +1,5 @@
 import React from 'react'
-import image from '../images/1.jpg'
+import image from '../images/logo.png'
 import "./Navbar.css"
 import { Link,useNavigate} from 'react-router-dom'
 export default function Navbar() {
