@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono:ital@1&display=swap');
+nav{
+    font-family: "Xanh Mono", monospace;
+    
+    
+}
+.logo{
+    width: 6% !important;
+}
+.back{
+   background-color:  rgb(39, 43, 48) !important;
+}
+nav
+{
+    background-color: rgb(39,43,48);
+    border-bottom: 1px solid rgba(28,28,28,.6);
+}

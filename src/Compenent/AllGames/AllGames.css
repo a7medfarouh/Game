@@ -1,0 +1,23 @@
+.trending
+{
+    position: relative;
+}
+.trending::before
+{
+    content: '';
+    position: absolute;
+    background-color: gray;
+    width: 25%;
+    height: 3px;
+}
+.trending::after
+{
+    content: '';
+    position: absolute;
+    background-color: gray;
+    width: 100%;
+    height: 3px;
+}
+.mg{
+    margin-top: 85px;
+}
