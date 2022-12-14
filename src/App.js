@@ -28,7 +28,11 @@ let routers= createHashRouter([
     {path:'home',element:<ProtectedRoute><Home/></ProtectedRoute>},
     {path:'allgames',element:<ProtectedRoute><AllGames/></ProtectedRoute>},
     {path:'game-details/:id',element:<ProtectedRoute> <Gamedetails/> </ProtectedRoute>},
+    
+    
     {path:'platforms/:path',element:<ProtectedRoute><Platforms/></ProtectedRoute>},
+
+
     {path:'sort-by/:path',element:<ProtectedRoute><Sortby/></ProtectedRoute>},
     {path:'category/:path',element:<ProtectedRoute><Categery/></ProtectedRoute>},
     {path:'*',element:<Login/> }
